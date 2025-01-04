@@ -15,6 +15,7 @@ Esta API faz o gerenciamento de vendedores e suas vendas, com sistema de e-mail.
 - Instalar Banco de Dados (MySQL) - Docker
 - Configurar Banco de Dados - Docker
 - Conectar Banco de Dados
+- Adicionar verificação de saúde da api
 
 ## Sumário
 - [Desenvolvimento](#desenvolvimento)
@@ -57,6 +58,7 @@ cd sellers-api
 
 3. Execute a aplicação
 ```bash
+docker-compose build
 docker-compose up -d
 ```
 

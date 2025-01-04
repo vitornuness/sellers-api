@@ -6,15 +6,16 @@ services:
   ports:
    - "80:80"
   volumes:
-    - ./www:/www
+    - ./:/var/www
     - ./site.conf:/etc/nginx/conf.d/site.conf
   links:
     - php
  php:
-  image: php:8.2-fpm
+  build: .
   container_name: php-fpm
+  working_dir: /var/www
   volumes:
-  - ./www:/www
+  - ./:/var/www
   links:
   - db
  db:

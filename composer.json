@@ -1,0 +1,7 @@
+{
+    "name": "vitornuness/seller-api",
+    "description": "Um servico para gerenciar vendedores e suas vendas",
+    "require": {
+        "php": ">=8.2"
+    }
+}
