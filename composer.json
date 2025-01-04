@@ -1,6 +1,19 @@
 {
     "name": "vitornuness/seller-api",
-    "description": "Um servico para gerenciar vendedores e suas vendas",
+    "description": "API para gerenciar vendedores e suas vendas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor Nunes",
+            "email": "vitor1nuness@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=8.2"
     }
