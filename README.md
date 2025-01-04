@@ -5,13 +5,13 @@ Esta API faz o gerenciamento de vendedores e suas vendas, com sistema de e-mail.
 ## Desenvolvimento
 
 ### Últimas atualização
-- Adicionado servidor ngix - Docker
-- Configurado servidor - Docker/Local
+- Adicionar servidor ngix - Docker
+- Configurar servidor - Docker/Local
 - Documentação
-
-### Próximas atualizações
 - Instalar PHP - Docker
 - Configurar PHP - Docker
+
+### Próximas atualizações
 - Instalar Banco de Dados (MySQL) - Docker
 - Configurar Banco de Dados - Docker
 - Conectar Banco de Dados
