@@ -8,3 +8,10 @@ services:
   volumes:
     - ./www:/www
     - ./site.conf:/etc/nginx/conf.d/site.conf
+  links:
+    - php
+ php:
+  image: php:8.2-fpm
+  container_name: php-fpm
+  volumes:
+  - ./www:/www
